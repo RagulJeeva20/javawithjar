@@ -3,7 +3,7 @@ package org.example.bank;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.logging.*;
-public class BankAcc
+public class Bankacc
 {
     String name;
     int accno;
@@ -11,7 +11,7 @@ public class BankAcc
     Logger l=Logger.getLogger("tyler");
     Scanner s=new Scanner(System.in);
     Scanner c=new Scanner(System.in);
-    public BankAcc()
+    public Bankacc()
     {
         l.info("enter name:");
         String a=c.next();

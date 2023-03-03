@@ -1,7 +1,7 @@
 package org.example;
 
 
-import org.example.bank.BankAcc;
+import org.example.bank.Bankacc;
 import org.example.calculator.Calculator;
 import org.example.contact.Contact;
 import org.example.credit.Credit;
@@ -30,7 +30,7 @@ public class Main {
             choice = scan.nextInt();
             switch (choice)
             {
-                case 1: BankAcc ragul = new BankAcc();
+                case 1: Bankacc ragul = new Bankacc();
                     ragul.deposit();
                     break;
                 case 2:
