@@ -2,7 +2,7 @@ package org.example.point;
 
 import java.util.Scanner;
 import java.util.logging.*;
-public class Point implements Cloneable
+public class Point 
 {
     Logger l=Logger.getLogger("tyler");
     Integer x;
