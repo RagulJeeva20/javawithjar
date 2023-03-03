@@ -17,8 +17,6 @@ public class Contact
         int a = 0;
         while (a == 0) {
             try {
-
-
                 l.info("enter your choice: \n 1.insert the contact\n 2.Delete a contact \n 3.search the contact \n 4.Display all contact \n others:exit");
 
                 int ch = s.nextInt();
@@ -128,6 +126,8 @@ public class Contact
                 l.info("You have entered wrong Datatype");
             }
         }
+
     }
+
 
 }

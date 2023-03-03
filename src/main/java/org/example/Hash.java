@@ -14,29 +14,25 @@ public class Hash {
         int choice;
         Scanner scanin = new Scanner(System.in);
         boolean cond = true;
-        while (cond==true) {
+        while (cond) {
             l.info("1 Hashmap\n2 Hashset\n3Treeset\n4 exit");
             try {
-
-
                 choice = scanin.nextInt();
 
 
                 switch (choice) {
                     case 1:
-                        Hashmap obj = new Hashmap();
-                        obj.hashmap();
+                        Hashmap.hashmap();
                         break;
                     case 2:
-                        Hashset obj1 = new Hashset();
-                        obj1.hashset();
+                        Hashset.hashset();
                         break;
                     case 3:
-                        Treeset obj2 = new Treeset();
-                        obj2.treeset();
+                        Treeset.treeset();
                         break;
                     case 4:
                         cond = false;
+                        break;
 
                     default:
                         l.info("Invalid option");

@@ -6,6 +6,7 @@ import java.util.logging.Logger;
 
 public class Hashmap
 {
+    private Hashmap() {}
     public static void hashmap()
     {
 

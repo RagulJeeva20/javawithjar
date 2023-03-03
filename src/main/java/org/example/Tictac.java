@@ -94,19 +94,19 @@ public class Tictac {
             {
                 ps.println("player playing with " + arr[i][0] + " is winner!");
                 checks++;
-                break;
+
             }
-            if ((arr[0][i].equals(arr[1][i])) && (arr[1][i].equals(arr[2][i])))
+            else if ((arr[0][i].equals(arr[1][i])) && (arr[1][i].equals(arr[2][i])))
             {
                 ps.println("player with " +arr[1][i] + " is the winner!");
                 checks++;
-                break;
+
             }
-            if (((arr[0][0].equals(arr[1][1])) &&(arr[1][1].equals(arr[2][2]))) ||((arr[0][2].equals(arr[1][1])) &&(arr[1][1].equals(arr[2][0]))))
+            else if (((arr[0][0].equals(arr[1][1])) &&(arr[1][1].equals(arr[2][2]))) ||((arr[0][2].equals(arr[1][1])) &&(arr[1][1].equals(arr[2][0]))))
             {
                 ps.println("The winner is player who plays with " +arr[1][1]);
                 checks++;
-                break;
+
             }
         }
 return checks;

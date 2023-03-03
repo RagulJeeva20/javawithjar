@@ -5,6 +5,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Treeset {
+    private Treeset(){}
     public static void treeset() {
         Logger l=Logger.getLogger("tyler");
 

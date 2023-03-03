@@ -6,6 +6,7 @@ import java.util.logging.Logger;
 
 public class Calculator
 {
+    private Calculator(){}
 
     public static void calc1()
     {

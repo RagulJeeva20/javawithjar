@@ -7,18 +7,14 @@ import java.util.logging.Logger;
 
 class Studenttest
 {
+    private Studenttest(){}
     public static void stutest1()
     {
         Logger l=Logger.getLogger("tyler");
 
-//        Stulist a1=new Stulist("ragul",18,9);
-//        Stulist a2=new Stulist("jeeva",19,10);
-//        Stulist a3=new Stulist("kawin" ,9, 11);
+
 
         List <Stulist> list=new ArrayList<Stulist>();
-//        list.add(a1);
-//        list.add(a2);
-//        list.add(a3);
         Scanner sc=new Scanner(System.in);
         Scanner scaned=new Scanner(System.in);
         l.info("enter the number of students");

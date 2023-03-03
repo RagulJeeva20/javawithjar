@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args)  {
         Scanner scan = new Scanner(System.in);
 
         Logger log = Logger.getLogger("tyler");
@@ -58,6 +58,7 @@ public class Main {
                     break;
                 case 13:
                     System.exit(0);
+                    break;
                 default:
                     log.info("Invalid choice Number!");
             }

@@ -5,6 +5,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Hashset {
+    private Hashset(){}
     public static void hashset() {
         Logger l=Logger.getLogger("tyler");
         HashSet<String> hs = new HashSet<>();
