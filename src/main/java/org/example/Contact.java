@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 public class Contact
 {
-    private Contact(){}
+    Contact(){}
     public static void contact1()
     {
         Logger l = Logger.getLogger("tyler");
