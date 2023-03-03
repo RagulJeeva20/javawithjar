@@ -1,11 +1,25 @@
 package org.example;
 
 
+import org.example.Bank.BankAcc;
+import org.example.calculator.Calculator;
+import org.example.contact.Contact;
+import org.example.credit.Credit;
+import org.example.database.Creation;
+import org.example.filehandling.Filehandling;
+import org.example.hashes.Hash;
+import org.example.point.Point;
+import org.example.shapes.Shapes;
+import org.example.student.Students;
+import org.example.studenttest.Studenttest;
+import org.example.tictactoe.Tictac;
+
 import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class Main {
-    public static void main(String[] args)  {
+    public static void main(String[] args)
+    {
         Scanner scan = new Scanner(System.in);
 
         Logger log = Logger.getLogger("tyler");
@@ -16,8 +30,7 @@ public class Main {
             choice = scan.nextInt();
             switch (choice)
             {
-                case 1:
-                    BankAcc ragul = new BankAcc();
+                case 1: BankAcc ragul = new BankAcc();
                     ragul.deposit();
                     break;
                 case 2:
