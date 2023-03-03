@@ -7,6 +7,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Tictac {
+    private Tictac(){}
     public static void tictac()throws InputMismatchException
     {
 

@@ -10,6 +10,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Filehandling {
+    private Filehandling(){}
     public static void file1()
     {
         Logger l = Logger.getLogger("tyler");

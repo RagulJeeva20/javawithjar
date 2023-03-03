@@ -8,6 +8,7 @@ package org.example;
         import java.util.logging.Logger;
 
 public class Hash {
+    private Hash(){}
     public static void hash1(){
 
         Logger l = Logger.getLogger("kawin");
