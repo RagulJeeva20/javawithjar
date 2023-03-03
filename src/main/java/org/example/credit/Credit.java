@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Credit
+public class Credit implements Cloneable
 {
     Logger l=Logger.getLogger("tyler");
 
