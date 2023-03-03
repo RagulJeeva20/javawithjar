@@ -1,7 +1,7 @@
 package org.example;
 
 
-import org.example.Bank.BankAcc;
+import org.example.bank.BankAcc;
 import org.example.calculator.Calculator;
 import org.example.contact.Contact;
 import org.example.credit.Credit;
